@@ -15,13 +15,7 @@ Provide one centralized logger for the whole project.
 -   Export a shared logger object.
 
 **Workflow**
-Project modules
- ↓ 
-core/logger.py
- ↓ 
-Python logging module
- ↓
-logs/automation.log
+Project modules → core/logger.py → Python logging module → logs/automation.log
 
 **Usage**
 *from core.logger import logger*
